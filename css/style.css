@@ -1,6 +1,14 @@
+/* Common */
 body{
     font-family: Arial, sans-serif;
 }
+
+.img-rounded{
+    border-radius: 20px;
+}
+/* Buttons */
+
+/* Header  */
 .header-top{
     background-color: black;
     padding: 10px;
@@ -10,19 +18,28 @@ body{
     height: 15px;
 }
 
-.hero{
+/* Main  */
+.hero-top{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: top center;
+    padding: 300px 0 50px 0;
 }
 
-.hero-top{
-    padding-top: 400px;
-
+.hero-bottom{
+    padding-bottom: 24px;
 }
 #jumbo{
     height: 40px;
 }
 #buy-now{
     background-color: #cd3d0f;
+}
+
+.hero-img{
+    margin-top: 24px;
+}
+.hero-active{
+    border: 2px solid #0072ce;
+    padding: 2px;
 }
