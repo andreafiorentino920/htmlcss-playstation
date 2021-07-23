@@ -1,0 +1,8 @@
+.header-top{
+    background-color: black;
+    padding: 10px;
+}
+
+.header-top > img{
+    height: 15px;
+}
