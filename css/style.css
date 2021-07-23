@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, sans-serif;
+}
 .header-top{
     background-color: black;
     padding: 10px;
@@ -5,4 +8,21 @@
 
 .header-top > img{
     height: 15px;
+}
+
+.hero{
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: top center;
+}
+
+.hero-top{
+    padding-top: 400px;
+
+}
+#jumbo{
+    height: 40px;
+}
+#buy-now{
+    background-color: #cd3d0f;
 }
