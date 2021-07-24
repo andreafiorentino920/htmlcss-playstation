@@ -70,17 +70,21 @@ body{
 }
 
 
-.ps-plus-img-1{
+.ps-plus-img-1, .ps-now-img-1{
    width: 60%;
 }
 
-.ps-plus-img-2{
+.ps-plus-img-2, .ps-now-img-2{
     width: 100%;
 }
 
+#ps-now{
+    background-color: #161c3b;
+}
 .playstation-store img{
     width: 90%;
 }
+
 @media screen and (max-width: 768px){   
     .col_right{
         display: none;
