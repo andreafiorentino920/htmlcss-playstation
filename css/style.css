@@ -19,6 +19,9 @@ body{
 }
 
 /* Main  */
+hero{
+    margin-bottom: 50px;
+}
 .hero-top{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
@@ -43,3 +46,8 @@ body{
     border: 2px solid #0072ce;
     padding: 2px;
 }
+
+.col img{
+    width: 70%;
+}
+
