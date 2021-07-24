@@ -19,21 +19,35 @@ body{
 }
 
 /* Main  */
-hero{
+#hero{
     margin-bottom: 50px;
 }
-.hero-top{
+.hero > .hero-top{
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: top center;
     padding: 300px 0 50px 0;
 }
 
-.hero-bottom{
-    padding-bottom: 24px;
+.hero-2 > .hero-top{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: top center;
+    padding: 100px 0 50px 0;
 }
-#jumbo{
+
+.hero-bottom{
+    padding-bottom: 50px;
+}
+
+.hero-2 > .hero-bottom{
+    background-color: #1f1f1f;
+}
+.hero > .hero-top #jumbo{
     height: 40px;
+}
+.hero-2 > .hero-top #jumbo{
+    height: 150px;
 }
 #buy-now{
     background-color: #cd3d0f;
@@ -47,6 +61,7 @@ hero{
     padding: 2px;
 }
 
+.hero-2 .hero-bottom
 .col img{
     width: 70%;
 }
