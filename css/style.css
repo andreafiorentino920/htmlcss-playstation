@@ -65,4 +65,23 @@ body{
 .col img{
     width: 70%;
 }
+.ps-plus{
+    background-color: #bebcbb;
+}
+
+
+.ps-plus-img-1{
+   width: 60%;
+}
+
+.ps-plus-img-2{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){   
+    .col_right{
+        display: none;
+    }
+}
+
 
