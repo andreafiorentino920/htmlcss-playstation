@@ -53,7 +53,7 @@ body{
     background-color: #cd3d0f;
 }
 
-.hero-img{
+.hero-img, .social img{
     margin-top: 24px;
 }
 .hero-active{
