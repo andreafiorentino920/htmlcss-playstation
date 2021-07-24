@@ -78,6 +78,9 @@ body{
     width: 100%;
 }
 
+.playstation-store img{
+    width: 90%;
+}
 @media screen and (max-width: 768px){   
     .col_right{
         display: none;
