@@ -85,6 +85,25 @@ body{
     width: 90%;
 }
 
+.social img{
+    width: 80%;
+}
+
+footer{
+    background-color: #00439c;
+}
+
+.globe-img{
+    width: 4%;
+}
+
+.ps-logo, .sony-logo{
+    width: 20%;
+}
+
+li{
+    list-style-type: none;
+}
 @media screen and (max-width: 768px){   
     .col_right{
         display: none;
