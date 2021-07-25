@@ -18,6 +18,17 @@ body{
     height: 15px;
 }
 
+.dropdown-toggle::after{
+    display: inline-block;
+}
+.lens{
+    height: 25px;
+    vertical-align: middle;
+}
+
+header .nav-item .btn{
+    margin: 0 10px 0 10px;
+}
 /* Main  */
 #hero{
     margin-bottom: 50px;
@@ -38,6 +49,7 @@ body{
 
 .hero-bottom{
     padding-bottom: 50px;
+    font-size: 15px;
 }
 
 .hero-2 > .hero-bottom{
@@ -55,6 +67,10 @@ body{
 
 .hero-img, .social img{
     margin-top: 24px;
+}
+
+.hero-2 img, .hero-2 .hero-img{
+    margin-bottom: 15px;
 }
 .hero-active{
     border: 2px solid #0072ce;
@@ -86,7 +102,7 @@ body{
 }
 
 .social img{
-    width: 80%;
+    width: 40%;
 }
 
 footer{
@@ -98,17 +114,16 @@ footer{
 }
 
 .ps-logo, .sony-logo{
+    width: 15%;
+}
+.sony-logo{
     width: 20%;
 }
-
 li{
     list-style-type: none;
+    margin-bottom: 5px;
 }
 
-.scritta{
-    display: flex;
-    align-content: center;
-}
 @media screen and (max-width: 768px){   
     .col_right{
         display: none;
