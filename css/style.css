@@ -34,7 +34,6 @@ header .nav-item .btn{
 }
 .accedi:hover{
     background-color: #292926;
-    box-shadow: inset 0px 0px 2px 2px white;
 }
 
 .hover-btn-black:hover{
@@ -46,9 +45,13 @@ header .nav-item .btn{
 .hero-img:hover{
     position: relative;
 }
-.hero .hero-bottom img{
-    transition: 5s;
+
+
+.hero-bottom .hero-img img:hover{
+    position: absolute;
+    top: -15px;
 }
+
 
 
 /* Main  */
@@ -144,6 +147,10 @@ footer{
 li{
     list-style-type: none;
     margin-bottom: 5px;
+}
+
+.riga-5 img{
+    width: 60%;
 }
 
 .bar:hover{
