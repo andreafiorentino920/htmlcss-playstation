@@ -33,8 +33,15 @@ header .nav-item .btn{
     background-color: #363636;
 }
 .accedi:hover{
-    background-color: #262629;
-    border: 2px solid red;
+    background-color: #292926;
+    box-shadow: inset 0px 0px 2px 2px white;
+}
+
+.hover-btn-black:hover{
+    box-shadow: inset 0px 0px 2px 2px black ;
+}
+.hover-btn-white:hover{
+    box-shadow: inset 0px 0px 2px 2px white ;
 }
 .hero-img:hover{
     position: relative;
@@ -42,10 +49,7 @@ header .nav-item .btn{
 .hero .hero-bottom img{
     transition: 5s;
 }
-.hero .hero-bottom img:hover{
-    position: absolute;
-    top: -20px;
-}
+
 
 /* Main  */
 #hero{
