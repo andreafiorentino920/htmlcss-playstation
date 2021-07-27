@@ -46,13 +46,10 @@ header .nav-item .btn{
     position: relative;
 }
 
-
 .hero-bottom .hero-img img:hover{
     position: absolute;
     top: -15px;
 }
-
-
 
 /* Main  */
 #hero{
@@ -126,10 +123,6 @@ header .nav-item .btn{
     width: 90%;
 }
 
-.social img{
-    width: 40%;
-}
-
 footer{
     background-color: #00439c;
 }
@@ -148,11 +141,9 @@ li{
     list-style-type: none;
     margin-bottom: 5px;
 }
-
 .riga-5 img{
     width: 60%;
 }
-
 .bar:hover{
     border-bottom: 3px solid #0abab5;
 }
@@ -162,6 +153,9 @@ li{
 .grigio{
     filter: grayscale(100%);
 }
+
+
+/* Media query */
 @media screen and (max-width: 768px){   
     .col_right{
         display: none;
